@@ -1,8 +1,17 @@
 {
-  "contentIDBase": "https://github.com/rackerlabs/docs-ras-databases/",
-  "githubUrl": "https://github.com/rackerlabs/docs-ras-databases/",
+  "contentIDBase": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
+  "githubUrl": "https://github.com/rackerlabs/docs-rackspace/",
   "githubBranch": "master",
   "meta": {
     "preferGithubIssues": true
   }
+}
+
+{
+  "contentIDBase": "https://github.com/rcbops/mk8s/1.1.x/",
+  "githubUrl": "https://github.com/rackerlabs/docs-rackspace/",
+  "githubBranch": "1.1.x",
+  "meta": {
+    "preferGithubIssues": true
+ }
 }
