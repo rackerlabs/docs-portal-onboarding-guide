@@ -1,6 +1,6 @@
 {
   "contentIDBase": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
-  "githubUrl": "https://github.com/rackerlabs/docs-rackspace/",
+  "githubUrl": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
   "githubBranch": "master",
   "meta": {
     "preferGithubIssues": true
@@ -9,7 +9,7 @@
 
 {
   "contentIDBase": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
-  "githubUrl": "https://github.com/rackerlabs/docs-rackspace/",
+  "githubUrl": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
   "githubBranch": "1.1.x",
   "meta": {
     "preferGithubIssues": true
