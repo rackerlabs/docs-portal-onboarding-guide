@@ -8,7 +8,7 @@
 }
 
 {
-  "contentIDBase": "https://github.com/rcbops/mk8s/1.1.x/",
+  "contentIDBase": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
   "githubUrl": "https://github.com/rackerlabs/docs-rackspace/",
   "githubBranch": "1.1.x",
   "meta": {
