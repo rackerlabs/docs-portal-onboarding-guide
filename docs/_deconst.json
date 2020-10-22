@@ -1,7 +1,7 @@
 {
   "contentIDBase": "https://github.com/rackerlabs/docs-portal-onboarding-guide/",
   "githubUrl": "https://github.com/rackerlabs/docs-rackspace/",
-  "githubBranch": "master",
+  "githubBranch": "main",
   "meta": {
     "preferGithubIssues": true
   }
