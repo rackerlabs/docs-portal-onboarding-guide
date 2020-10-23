@@ -9,12 +9,12 @@ Technology Customer Portal.
 The following sections include details about
 common tasks that you can perform using this portal.
 
-
 The following sections provide information about the Customer Portal:
 
 .. toctree::
    :maxdepth: 1
 
+   Rackspace Technology Customer Portal Onboarding Guide <self>
    customer-portal-onboarding-guide/intended_audience.rst
    customer-portal-onboarding-guide/introduction.rst
    customer-portal-onboarding-guide/portal_profile/index.rst
