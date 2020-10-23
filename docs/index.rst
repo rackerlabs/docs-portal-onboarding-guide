@@ -15,13 +15,13 @@ The following sections provide information about the Customer Portal:
    :maxdepth: 1
 
    Rackspace Technology Customer Portal Onboarding Guide <self>
-   customer-portal-onboarding-guide/intended_audience.rst
-   customer-portal-onboarding-guide/introduction.rst
-   customer-portal-onboarding-guide/portal_profile/index.rst
-   customer-portal-onboarding-guide/manage_portal_user_groups/index.rst
-   customer-portal-onboarding-guide/administrative/index.rst
-   customer-portal-onboarding-guide/understand_billing/index.rst
-   customer-portal-onboarding-guide/manage_billing/index.rst
-   customer-portal-onboarding-guide/tickets/index.rst
-   customer-portal-onboarding-guide/notifications/index.rst
-   customer-portal-onboarding-guide/support.rst
+   intended_audience.rst
+   introduction.rst
+   portal_profile/index.rst
+   manage_portal_user_groups/index.rst
+   administrative/index.rst
+   understand_billing/index.rst
+   manage_billing/index.rst
+   tickets/index.rst
+   notifications/index.rst
+   support.rst
