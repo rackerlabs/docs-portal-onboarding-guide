@@ -12,7 +12,7 @@ common tasks that you can perform using this portal.
 The following sections provide information about the Customer Portal:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    Rackspace Technology Customer Portal Onboarding Guide <self>
    intended_audience.rst
