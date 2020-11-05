@@ -14,7 +14,6 @@ The following sections provide information about the Customer Portal:
 .. toctree::
    :maxdepth: 2
 
-   Rackspace Technology Customer Portal Onboarding Guide <self>
    intended_audience.rst
    introduction.rst
    portal_profile/index.rst
