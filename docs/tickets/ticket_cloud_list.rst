@@ -1,7 +1,7 @@
 .. _ticket_list:
 
 =======================================================
-Rackspace Technology Public Cloud customer: Ticket list
+Rackspace Technology: Ticket list
 =======================================================
 
 The ticket list enables you to create new support tickets and

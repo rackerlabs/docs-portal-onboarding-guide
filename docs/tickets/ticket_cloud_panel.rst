@@ -1,11 +1,11 @@
 .. _ticket_cloud_panel:
 
 ===================================================================
-Rackspace Technology Public Cloud customers: Create support tickets
+Rackspace Technology customers: Create support tickets
 ===================================================================
 
-The following sections explain how Rackspace Technology Public
-Cloud customers can create and view support tickets.
+The following sections explain how Rackspace Technology
+customers can create and view support tickets.
 
 
 Create a support ticket

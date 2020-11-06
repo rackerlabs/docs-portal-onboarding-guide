@@ -4,8 +4,12 @@
 Rackspace Technology Dedicated customers: Create support tickets
 ===========================================================================
 
+The ticketing experience might be different for Rackspace Technology
+Dedicated customers. Rackspace Technology Dedicated customers are those with
+managed hosting for physical and virtual devices.
+
 The following sections explain how Rackspace Technology
-Private Cloud customers can create and view support tickets.
+Dedicated customers can create and view support tickets.
 
 Complete the following steps to create a support ticket:
 
