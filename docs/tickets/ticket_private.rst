@@ -1,8 +1,8 @@
 .. _ticket_private:
 
-====================================================================
-Rackspace Technology Private Cloud customers: Create support tickets
-====================================================================
+===========================================================================
+Rackspace Technology Dedicated customers: Create support tickets
+===========================================================================
 
 The following sections explain how Rackspace Technology
 Private Cloud customers can create and view support tickets.

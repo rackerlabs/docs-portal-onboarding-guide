@@ -1,7 +1,7 @@
 .. _ticket_private_list:
 
 ========================================================
-Rackspace Technology Private Cloud customer: ticket list
+Rackspace Technology Dedicated customers: ticket list
 ========================================================
 
 The ticket list enables you to create new support tickets and
