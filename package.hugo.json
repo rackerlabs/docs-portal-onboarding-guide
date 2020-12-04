@@ -1,0 +1,7 @@
+{
+  "name": "docs-portal-onboarding-guide",
+  "version": "1.0.0",
+  "description": "Docs Portal Onboarding Guide for Rackspace",
+  "private": true,
+  "main": "index.js"
+}

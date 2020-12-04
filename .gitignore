@@ -1,40 +1,21 @@
-.DS_Store
-*.xpr
-.idea
-.eggs
+# Don't commit system files or dependencies
+*.DS_Store
+node_modules/
+.env
+resources/
 
-# Build results
-target/
-/publish-docs/
-/www/output/
-/generated/
-.doctrees
+# Don't add personal VS Code settings
+.vscode/
 
-build/
-_build/
-/build-*.log.gz
-*.pdf
-glossary.rst
-*.mo
+# Ensure Hugo builds aren't committed to Git
+public/
+hugo/public/
+dist/
+.tmp/
+resources/_gen
 
-# Python compiled files
-*.pyc
-
-# Ignore Vagrant Related Files
-acceptance_config.yml
-boxes/*
-/.vagrant
-
-# Testenvironment
-.tox/
-
-# Virtualenv
-.venv/
-ENV/
-
-# Editors
-*~
-.*.swp
-.bak
-/.project
-.python-version
+# Don't add files that are created in the build process
+.netlify
+Gemfile.lock
+static/assets
+package-lock.json
