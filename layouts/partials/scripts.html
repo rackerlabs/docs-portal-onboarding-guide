@@ -117,6 +117,37 @@
         css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
         document.body.appendChild(css);
     }
+
+    $(function(){
+        var current = location.pathname;
+        $('#sidebar ul.sidebar-list li.sidebar-item>a').each(function(){
+            var $this = $(this);
+            $this.attr('onClick', function() {
+                if(($this.attr('href').indexOf(current) !== -1) && current !== '/' && location.hash === ''){
+                    $this.addClass('active');
+                }
+                if(current === '/') {
+                    $('#current').addClass('active');
+                }
+                    $('#sidebar ul.sidebar-list li.sidebar-item ul.sidebar-sub-list li.sidebar-sub-item>a').each(function(){
+                        var $this = $(this);
+                        console.log($this.parent().parent().parent().children("a").hasClass("active"))
+                        if(!$this.parent().parent().parent().children("a").hasClass("active")) {
+                            $this.attr('onClick', function() {
+                                if(($this.attr('href').indexOf(location.hash) !== -1) && location.hash !== ''){
+                                    $this.parent().parent().addClass('show');
+                                    $this.addClass('active');
+                                }
+                                if(($this.attr('href').indexOf(current) !== -1) && current !== '/' && location.hash === ''){
+                                    $this.parent().parent().addClass('show');
+                                    $this.addClass('active');
+                                }
+                            })
+                        }
+                    })
+            })
+        })
+    })
 </script>
 
 <script

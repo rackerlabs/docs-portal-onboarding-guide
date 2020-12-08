@@ -1,0 +1,90 @@
+#sidebar {
+    @media screen and (min-width: 1025px) {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        display: inline-block;
+        margin-right: -.26rem;
+        margin-left: 0;
+        vertical-align: top;
+        padding: 15px 20px 0;
+    }
+    @media screen and (min-width: 769px) {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        display: inline-block;
+        margin-right: -.26rem;
+        margin-left: 0;
+        vertical-align: top;
+        padding: 15px 15px 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: #fafafa;
+        border-right: solid 1px #ebebeb;
+        height: 100%;
+    }
+    .github-link {
+        @media screen and (min-width: 1150px) {
+            text-align: left;
+        }
+        border-bottom: solid 1px #d1d1d1;
+        display: block;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        -webkit-transition: color .1s ease-in-out;
+        -ms-transition: color .1s ease-in-out;
+        transition: color .1s ease-in-out;
+        font-family: 'titillium-regular',arial,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+        .icon {
+            @media screen and (min-width: 1150px) {
+                display: inline-block;
+                font-size: 26px;
+                text-align: left;
+            }
+            color: #474747;
+            display: block;
+            font-size: 36px;
+            margin-right: 8px;
+            text-align: center;
+            -webkit-transition: color .1s ease-in-out;
+            -ms-transition: color .1s ease-in-out;
+            transition: color .1s ease-in-out;
+        }
+        .link-text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        padding: 0 0 0 20px;
+        width: 100%;
+        li {
+            margin: 0;
+            #current {
+                font-family: 'titillium-bold',arial,sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            a {
+                color: #474747;
+                display: block;
+                font-size: 16px;
+                padding: .4em .5em;
+                text-decoration: none;
+                padding-left: 20px;
+                display: inline-block;
+            }
+            .active {
+                background: rgba(52,152,219,.2);
+                box-shadow: inset 3px 0 0 0 #3498db;
+            }
+        }
+    }
+}
