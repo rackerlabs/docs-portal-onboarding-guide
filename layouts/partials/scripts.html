@@ -131,7 +131,6 @@
                 }
                     $('#sidebar ul.sidebar-list li.sidebar-item ul.sidebar-sub-list li.sidebar-sub-item>a').each(function(){
                         var $this = $(this);
-                        console.log($this.parent().parent().parent().children("a").hasClass("active"))
                         if(!$this.parent().parent().parent().children("a").hasClass("active")) {
                             $this.attr('onClick', function() {
                                 if(($this.attr('href').indexOf(location.hash) !== -1) && location.hash !== ''){
