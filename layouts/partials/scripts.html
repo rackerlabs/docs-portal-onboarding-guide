@@ -116,6 +116,14 @@
         css.type = "text/css";
         css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
         document.body.appendChild(css);
+        let previousUrl, previousName, nextUrl, nextName;
+        switch(location.pathname) {
+            case('/notifications/managing_notifications/'):
+                previousName = 'Rackspace Technology: Ticket list';
+                previousUrl = '/tickets/ticket_cloud_list/';
+                nextName = 'Manage account notifications';
+                nextUrl = 'notifications/managing_notifications/';
+        }
     }
     $(function(){
         var current = location.pathname;
