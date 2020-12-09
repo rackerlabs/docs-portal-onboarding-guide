@@ -117,36 +117,216 @@
         css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
         document.body.appendChild(css);
     }
-
     $(function(){
         var current = location.pathname;
-        $('#sidebar ul.sidebar-list li.sidebar-item>a').each(function(){
+        $('#sidebar ul.sidebar-list li.sidebar-item a').each(function() {
             var $this = $(this);
             $this.attr('onClick', function() {
-                if(($this.attr('href').indexOf(current) !== -1) && current !== '/' && location.hash === ''){
-                    $this.addClass('active');
+                if(location.hash === ''){
+                switch (current) {
+                    case "/":
+                        $('#current').addClass('active');
+                        break;
+                    case "/intended_audience/":
+                        $('#current1').addClass('active');
+                        break;
+                    case "/introduction/":
+                        $('#headingOne').addClass('active');
+                        $('#headingOne').parent().children('ul').addClass('show');
+                        break;
+                    case "/portal_profile/":
+                        $('#headingTwo').addClass('active');
+                        $('#headingTwo').parent().children('ul').addClass('show');
+                        break;
+                    case "/manage_portal_user_groups/":
+                        $('#headingThree').addClass('active');
+                        $('#headingThree').parent().children('ul').addClass('show');
+                        break;
+                    case "/administrative/":
+                        $('#headingFour').addClass('active');
+                        $('#headingFour').parent().children('ul').addClass('show');
+                        break;
+                    case "/understand_billing/":
+                        $('#headingFive').addClass('active');
+                        $('#headingFive').parent().children('ul').addClass('show');
+                        break;
+                    case "/manage_billing/":
+                        $('#headingSix').addClass('active');
+                        $('#headingSix').parent().children('ul').addClass('show');
+                        break;
+                    case "/tickets/":
+                        $('#headingSeven').addClass('active');
+                        $('#headingSeven').parent().children('ul').addClass('show');
+                        break;
+                    case "/notifications/":
+                        $('#headingEight').addClass('active');
+                        $('#headingEight').parent().children('ul').addClass('show');
+                        break;
+                    case "/support/":
+                        $('#support').addClass('active');
+                        break;
+                    case "/manage_portal_user_groups/rbac/":
+                        $('#managePortal1').addClass('active');
+                        $('#managePortal1').parent().parent().addClass('show');
+                        break;
+                    case "/manage_portal_user_groups/cloud_groups/":
+                        $('#managePortal2').addClass('active');
+                        $('#managePortal2').parent().parent().addClass('show');
+                        break;
+                    case "/manage_portal_user_groups/private_cloud_users/":
+                        $('#managePortal3').addClass('active');
+                        $('#managePortal3').parent().parent().addClass('show');
+                        break;
+                    case "/manage_portal_user_groups/api_key/":
+                        $('#managePortal4').addClass('active');
+                        $('#managePortal4').parent().parent().addClass('show');
+                        break;
+                    case "/manage_portal_user_groups/api_key_other/":
+                        $('#managePortal5').addClass('active');
+                        $('#managePortal5').parent().parent().addClass('show');
+                        break;
+                    case "/administrative/primary_contact/":
+                        $('#administrative1').addClass('active');
+                        $('#administrative1').parent().parent().addClass('show');
+                        break;
+                    case "/administrative/change_account_name/":
+                        $('#administrative2').addClass('active');
+                        $('#administrative2').parent().parent().addClass('show');
+                        break;
+                    case "/administrative/change_owner/":
+                        $('#administrative3').addClass('active');
+                        $('#administrative3').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/about/":
+                        $('#understand1').addClass('active');
+                        $('#understand1').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/estimate/":
+                        $('#understand2').addClass('active');
+                        $('#understand2').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/current_usage/":
+                        $('#understand3').addClass('active');
+                        $('#understand3').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/invoice_details/":
+                        $('#understand4').addClass('active');
+                        $('#understand4').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/account_invoice/":
+                        $('#understand5').addClass('active');
+                        $('#understand5').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/detailed_permissions/":
+                        $('#understand6').addClass('active');
+                        $('#understand6').parent().parent().addClass('show');
+                        break;
+                    case "/understand_billing/help/":
+                        $('#understand7').addClass('active');
+                        $('#understand7').parent().parent().addClass('show');
+                        break;
+                    case "/manage_billing/access/":
+                        $('#manageBilling1').addClass('active');
+                        $('#manageBilling1').parent().parent().addClass('show');
+                        break;
+                    case "/manage_billing/threshold/":
+                        $("#manageBilling2").addClass('active');
+                        $('#manageBilling2').parent().parent().addClass('show');
+                        break;
+                    case "/manage_billing/manage_methods/":
+                        $('#manageBilling3').addClass('active');
+                        $('#manageBilling3').parent().parent().addClass('show');
+                        break;
+                    case "/manage_billing/update_billing/":
+                        $('#manageBilling4').addClass('active');
+                        $('#manageBilling4').parent().parent().addClass('show');
+                        break;
+                    case "/manage_billing/vat/":
+                        $('#manageBilling5').addClass('active');
+                        $('#manageBilling5').parent().parent().addClass('show');
+                        break;
+                    case "/manage_billing/sla_credit/":
+                        $('#manageBilling6').addClass('active');
+                        $('#manageBilling6').parent().parent().addClass('show');
+                        break;
+                    case "/tickets/ticket_private/":
+                        $('#tickets1').addClass('active');
+                        $('#tickets1').parent().parent().addClass('show');
+                        break;
+                    case "/tickets/ticket_cloud_panel/":
+                        $('#tickets2').addClass('active');
+                        $('#tickets2').parent().parent().addClass('show');
+                        break;
+                    case "/notifications/managing_notifications/":
+                        $('#notifications1').addClass('active');
+                        $('#notifications1').parent().parent().addClass('show');
+                        break;
+                    case "/notifications/notification_preferences/":
+                        $('#notifications2').addClass('active');
+                        $('#notifications2').parent().parent().addClass('show');
+                        break;
+                    case "/notifications/user_preferences/":
+                        $('#notifications3').addClass('active');
+                        $('#notifications3').parent().parent().addClass('show');
+                        break;
+                    case "/notifications/situation_tickets/":
+                        $('#notifications4').addClass('active');
+                        $('#notifications4').parent().parent().addClass('show');
+                        break;
+                    case "/notifications/interpret_situation/":
+                        $('#notifications5').addClass('active');
+                        $('#notifications5').parent().parent().addClass('show');
+                        break;
+                    default:
+                        break;
                 }
-                if(current === '/') {
-                    $('#current').addClass('active');
+            }  else {
+                console.log(location.hash);
+                switch (location.hash) {
+                    case '#the-account-registration-code':
+                        $('#the-account-registration-code').addClass('active');
+                        $('#the-account-registration-code').parent().parent().addClass('show');
+                        break;
+                    case '#the-global-navigation-menu':
+                        $('#the-global-navigation-menu').addClass('active');
+                        $('#the-global-navigation-menu').parent().parent().addClass('show');
+                        break;
+                    case '#private-cloud':
+                        $('#private-cloud').addClass('active');
+                        $('#private-cloud').parent().parent().addClass('show');
+                        break;
+                    case '#public-cloud':
+                        $('#public-cloud').addClass('active');
+                        $('#public-cloud').parent().parent().addClass('show');
+                        break;
                 }
-                    $('#sidebar ul.sidebar-list li.sidebar-item ul.sidebar-sub-list li.sidebar-sub-item>a').each(function(){
-                        var $this = $(this);
-                        if(!$this.parent().parent().parent().children("a").hasClass("active")) {
-                            $this.attr('onClick', function() {
-                                if(($this.attr('href').indexOf(location.hash) !== -1) && location.hash !== ''){
-                                    $this.parent().parent().addClass('show');
-                                    $this.addClass('active');
-                                }
-                                if(($this.attr('href').indexOf(current) !== -1) && current !== '/' && location.hash === ''){
-                                    $this.parent().parent().addClass('show');
-                                    $this.addClass('active');
-                                }
-                            })
-                        }
-                    })
+            }
             })
         })
-    })
+    });
+
+    function hashChange() {
+        console.log(location.hash);
+        switch (location.hash) {
+            case '#the-account-registration-code':
+                $('#the-account-registration-code').addClass('active');
+                $('#the-account-registration-code').parent().parent().addClass('show');
+                break;
+            case '#the-global-navigation-menu':
+                $('#the-global-navigation-menu').addClass('active');
+                $('#the-global-navigation-menu').parent().parent().addClass('show');
+                break;
+            case '#private-cloud':
+                $('#private-cloud').addClass('active');
+                $('#private-cloud').parent().parent().addClass('show');
+                break;
+            case '#public-cloud':
+                $('#public-cloud').addClass('active');
+                $('#public-cloud').parent().parent().addClass('show');
+                break;
+        }
+    }
+
 </script>
 
 <script
