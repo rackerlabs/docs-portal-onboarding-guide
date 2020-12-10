@@ -38,3 +38,6 @@ ENV/
 .bak
 /.project
 .python-version
+node_modules
+.vscode
+Gemfile.lock
