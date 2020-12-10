@@ -46,5 +46,5 @@ To access the global navigation menu:
 #. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
 #. Select from the global navigation dropdown menu items.
 
-.. image:: /_static/global_nav.png
+.. image:: /static/img/global_nav.png
     :alt: **charges to date**

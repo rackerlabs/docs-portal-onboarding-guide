@@ -16,5 +16,5 @@ Complete the following steps to access the ticket list:
 #. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_
 #. Select **TICKETS > Ticket list**.
 
-      .. image:: /_static/private_cloud_list.png
+      .. image:: /static/img/private_cloud_list.png
          :alt: **create a ticket dropdown**
