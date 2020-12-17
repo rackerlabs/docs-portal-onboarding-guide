@@ -11,8 +11,6 @@ target/
 .doctrees
 
 build/
-docs/build/
-docs/_build/
 _build/
 /build-*.log.gz
 *.pdf
