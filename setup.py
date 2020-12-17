@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 import os
 import subprocess
 import distutils.cmd
@@ -79,3 +78,66 @@ class TransifexCommand(distutils.cmd.Command):
         subprocess.run(['tx', 'pull', '--mode', 'onlyreviewed', '-f', '-a'], check=True)
 
 
+setup(
+    name='sphinx_rtd_theme',
+    version='0.5.0',
+    url='https://github.com/readthedocs/sphinx_rtd_theme',
+    license='',
+    author='',
+    author_email='',
+    description='',
+    long_description=open('README.rst', encoding='utf-8').read(),
+    cmdclass={
+        'update_translations': UpdateTranslationsCommand,
+        'transifex': TransifexCommand,
+        'build_py': WebpackBuildCommand,
+        'watch': WebpackDevelopCommand,
+    },
+    zip_safe=False,
+    packages=['sphinx_rtd_theme'],
+    package_data={'sphinx_rtd_theme': [
+        'theme.conf',
+        '*.html',
+        'static/css/*.css',
+        'static/css/fonts/*.*'
+        'static/js/*.js',
+    ]},
+    include_package_data=True,
+    # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
+    entry_points = {
+        'sphinx.html_themes': [
+            'sphinx_rtd_theme = sphinx_rtd_theme',
+        ]
+    },
+    install_requires=[
+        'sphinx'
+    ],
+    tests_require=[
+        'pytest',
+    ],
+    extras_require={
+        'dev': [
+            'transifex-client',
+            'sphinxcontrib-httpdomain',
+            'bump2version',
+        ],
+    },
+    classifiers=[
+        'Framework :: Sphinx',
+        'Framework :: Sphinx :: Theme',
+        'Development Status :: 5 - Production/Stable',
+        'License :: OSI Approved :: MIT License',
+        'Environment :: Console',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Operating System :: OS Independent',
+        'Topic :: Documentation',
+        'Topic :: Software Development :: Documentation',
+    ],
+)

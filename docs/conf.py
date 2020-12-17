@@ -4,7 +4,11 @@ import sys
 import os
 import re
 
+# If we are building locally, or the build on Read the Docs looks like a PR
+# build, prefer to use the version of the theme in this repo, not the installed
+# version of the theme.
 def is_development_build():
+    # PR builds have an interger version
     re_version = re.compile(r'^[\d]+$')
     if 'READTHEDOCS' in os.environ:
         version = os.environ.get('READTHEDOCS_VERSION', '')
@@ -20,11 +24,11 @@ sys.path.append(os.path.abspath('./demo/'))
 import sphinx_rtd_theme
 from sphinx.locale import _
 
-project = u'Docs Portal Onboarding Guide'
+project = u'Docs Sphinx Theme'
 slug = re.sub(r'\W+', '-', project.lower())
-version = '0.1.0'
-release = '0.1.0'
-author = u'Rackerlabs'
+version = '0.5.0'
+release = '0.5.0'
+author = u'Docs'
 copyright = author
 language = 'en'
 
@@ -63,6 +67,7 @@ if not 'READTHEDOCS' in os.environ:
     html_static_path = ['_static/']
     html_js_files = ['debug.js']
 
+    # Add fake versions for local QA of the menu
     html_context['test_versions'] = list(map(
         lambda x: str(x / 10),
         range(1, 100)
@@ -87,6 +92,7 @@ texinfo_documents = [
 ]
 
 
+# Extensions to theme docs
 def setup(app):
     from sphinx.domains.python import PyField
     from sphinx.util.docfields import Field

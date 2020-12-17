@@ -1,5 +1,6 @@
 var jQuery = (typeof(window) != 'undefined') ? window.jQuery : require('jquery');
 
+// Sphinx theme nav state
 function ThemeNav () {
 
     var nav = {
@@ -17,11 +18,16 @@ function ThemeNav () {
     nav.enable = function (withStickyNav) {
         var self = this;
 
+        // TODO this can likely be removed once the theme javascript is broken
+        // out from the RTD assets. This just ensures old projects that are
+        // calling `enable()` get the sticky menu on by default. All other cals
+        // to `enable` should include an argument for enabling the sticky menu.
         if (typeof(withStickyNav) == 'undefined') {
             withStickyNav = true;
         }
 
         if (self.isRunning) {
+            // Only allow enabling nav logic once
             return;
         }
 
@@ -57,7 +63,8 @@ function ThemeNav () {
 
     };
 
-
+    // TODO remove this with a split in theme and Read the Docs JS logic as
+    // well, it's only here to support 0.3.0 installs of our theme.
     nav.enableSticky = function() {
         this.enable(true);
     };
@@ -197,11 +204,17 @@ module.exports.ThemeNav = ThemeNav();
 if (typeof(window) != 'undefined') {
     window.SphinxRtdTheme = {
         Navigation: module.exports.ThemeNav,
+        // TODO remove this once static assets are split up between the theme
+        // and Read the Docs. For now, this patches 0.3.0 to be backwards
+        // compatible with a pre-0.3.0 layout.html
         StickyNav: module.exports.ThemeNav,
     };
 }
 
 
+// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+// https://gist.github.com/paulirish/1579671
+// MIT license
 
 (function() {
     var lastTime = 0;

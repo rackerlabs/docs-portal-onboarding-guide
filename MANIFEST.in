@@ -1,0 +1,16 @@
+include *.txt
+include babel.cfg
+include bin/preinstall.js
+recursive-include theme *.conf
+recursive-include theme *.css
+recursive-include theme *.eot
+recursive-include theme *.html
+recursive-include theme *.js
+recursive-include theme *.svg
+recursive-include theme *.ttf
+recursive-include theme *.woff
+recursive-include theme *.woff2
+recursive-include theme/locale *.pot *.po *.mo
+recursive-include tests *.py
+recursive-include tests *.rst
+prune build

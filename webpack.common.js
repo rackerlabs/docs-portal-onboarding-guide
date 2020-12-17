@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: "js/[name].js?[hash]",
-    path: path.resolve(__dirname, "/docs/build")
+    path: path.resolve(__dirname, "theme/static")
   },
   externals: {
     jquery: "jQuery"
@@ -20,16 +20,19 @@ module.exports = {
         use: "imports-loader?this=>window"
       },
       {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: ['babel-loader'],
-      },
-      {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader'
-        ],
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: false,
+              reloadAll: true
+            }
+          },
+          {
+            loader: "css-loader"
+          },
+        ]
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
@@ -46,16 +49,6 @@ module.exports = {
       }
     ]
   },
-  resolve: {
-    extensions: ['.jsx', '.scss', '.css', '.js'],
-    modules: [
-      path.resolve(__dirname, "node_modules"),
-    ],
-  },
-  watchOptions: {
-    aggregateTimeout: 300,
-    poll: 1000
-  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: "css/[name].css?[hash]",
@@ -65,7 +58,7 @@ module.exports = {
       {
         from: 'node_modules/html5shiv/dist/*.min.js',
         flatten: true,
-        to: path.resolve(__dirname,'sphinx_rtd_theme/static/js') },
+        to: path.resolve(__dirname,'theme/static/js') },
     ]),
   ]
 };

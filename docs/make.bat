@@ -12,6 +12,7 @@ set SPHINXBUILD=sphinx-build
 set SOURCEDIR=.
 set BUILDDIR=build
 set SPHINXPROJ=DocsPortalOnboardingGuide
+
 if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL
