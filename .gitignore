@@ -10,7 +10,8 @@ target/
 /generated/
 .doctrees
 
-build/
+build/doctrees/*
+build/html/*
 _build/
 /build-*.log.gz
 *.pdf
