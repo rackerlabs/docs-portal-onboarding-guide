@@ -1,17 +1,16 @@
 [build.environment]
-  HUGO_VERSION = "0.78.2"
   NPM_VERSION = "7.0.3"
   NODE_VERSION = "15.0.1"
 
 [build]
-  publish = "build/html"
+  publish = "docs/build/html"
   command = "npm run build"
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-  buildDir = "public"
+  buildDir = "docs/build/html"
   prettyURLs = true
   trailingSlash = true
 
@@ -23,7 +22,7 @@
   [plugins.inputs]
   
   # required config
-  checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
+  checkPaths = ['docs/build/html'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
 
   # optional config
   # ignoreDirectories = ['/admin']  # explicitly ignore these directories
