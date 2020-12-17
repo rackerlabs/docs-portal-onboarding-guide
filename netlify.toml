@@ -1,3 +1,33 @@
+[build.environment]
+  NPM_VERSION = "7.0.3"
+  NODE_VERSION = "15.0.1"
+
 [build]
-  publish = "build/html"
-  command = "make html"
+  publish = "docs/build/html"
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "docs/build/html"
+  prettyURLs = true
+  trailingSlash = true
+
+
+[[plugins]]
+  package = "netlify-plugin-a11y"
+
+  # all inputs are optional, we just show you the defaults below
+  [plugins.inputs]
+  
+  # required config
+  checkPaths = ['docs/build/html'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
+
+  # optional config
+  # ignoreDirectories = ['/admin']  # explicitly ignore these directories
+
+  resultMode = "warn" # is "error" by default
+
+  # Developer only
+  debugMode = true # extra logging for plugin developers
