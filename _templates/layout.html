@@ -20,6 +20,7 @@
   {% endblock %}
 
   {# CSS #}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
   <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
   {%- for css in css_files %}
@@ -54,6 +55,9 @@
   <!--[if lt IE 9]>
     <script src="{{ pathto('_static/js/html5shiv.min.js', 1) }}"></script>
   <![endif]-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   {%- if not embedded %}
   {# XXX Sphinx 1.8.0 made this an external js-file, quick fix until we refactor the template to inherert more blocks directly from sphinx #}
     {% if sphinx_version >= "1.8.0" %}
@@ -116,20 +120,20 @@
   {% block extrabody %}
   {% include "header.html" %}
   {% endblock %}
-  <div class="wy-grid-for-nav">
+
+  <div class="container-fluid">
+    <div class="row">
     {# SIDE NAV, TOGGLES ON MOBILE #}
+    <div class="col-sm-12 col-md-3 col-lg-3">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
-          {% block sidebartitle %}
-
-          {% include "searchbox.html" %}
-
-          {% endblock %}
-        </div>
 
         {% block navigation %}
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          <a href="https://github.com/rackerlabs/docs-portal-onboarding-guide/issues" target="_blank" class="github-link">
+            <span class="icon fa fa-github"></span>
+            <span class="link-text">Submit an issue</span>
+          </a>
           {% block menu %}
             {#
               The singlehtml builder doesn't handle this toctree call when the
@@ -152,9 +156,10 @@
         {% endblock %}
       </div>
     </nav>
+  </div>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
+<div class="col-sm-12 col-md-9 col-lg-9">
       <div class="wy-nav-content">
       {%- block content %}
         {% if theme_style_external_links|tobool %}
@@ -179,9 +184,9 @@
       {%- endblock %}
       </div>
 
-    </section>
+    
 
-  </div>
+  
   {% include "versions.html" %}
 
   <script type="text/javascript">
@@ -192,6 +197,8 @@
 
   {# Do not conflict with RTD insertion of analytics script #}
   {%- block footer %} {% endblock %}
-
+      </div>
+      </div>
+</div>
 </body>
 </html>
