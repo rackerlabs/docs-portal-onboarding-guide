@@ -2722,14 +2722,6 @@ table {
     text-decoration:none
 }
 
-.current > ul li a.active, ul li a.active {
-    background: rgba(52, 152, 219, .2);
-    box-shadow:inset 3px 0 0 0 #3498db
-}
-
-.current > ul li a:hover, ul li a:hover {
-    color:#3498db
-}
 
 
 

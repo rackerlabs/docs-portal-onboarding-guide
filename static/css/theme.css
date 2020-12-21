@@ -1730,7 +1730,7 @@ big, small {
 }
 
 .fa-minus-square-o:before, .wy-menu-vertical li.on a span.toctree-expand:before, .wy-menu-vertical li.current > a span.toctree-expand:before {
-    content: ""
+    content: "\f0da";
 }
 
 .fa-level-up:before {
@@ -2026,7 +2026,7 @@ big, small {
 }
 
 .fa-plus-square-o:before, .wy-menu-vertical li span.toctree-expand:before {
-    content: ""
+    content: "\f0da";
 }
 
 .fa-space-shuttle:before {
@@ -4829,18 +4829,10 @@ html {
     border-bottom:solid 1px #404040
 }
 
-.wy-menu-vertical li.current {
-    background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
-}
 
-.wy-menu-vertical li.current a {
-    padding:.4045em 2.427em
-}
 
 .wy-menu-vertical li.current a:hover {
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
 }
 
 .wy-menu-vertical li code, .wy-menu-vertical li .rst-content tt, .rst-content .wy-menu-vertical li tt {
@@ -4860,13 +4852,11 @@ html {
 }
 
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
-    padding: .4045em 1.618em;
     font-weight: bold;
     position: relative;
     background: rgba(52,152,219,.2);
     box-shadow: inset 3px 0 0 0 #3498db;
     border: none;
-    padding-left:1.618em -4px
 }
 
 .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover {
@@ -4899,15 +4889,11 @@ html {
 
 .wy-menu-vertical li.toctree-l2.current > a {
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
-    padding:.4045em 2.427em
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
     display: block;
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
-    padding:.4045em 4.045em
 }
 
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
@@ -4924,25 +4910,19 @@ html {
 
 .wy-menu-vertical li.toctree-l3.current > a {
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
-    padding:.4045em 4.045em
 }
 
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
     display: block;
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
-    padding:.4045em 5.663em
 }
 
 .wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
 }
 
 .wy-menu-vertical li.toctree-l3 span.toctree-expand {
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
 }
 
 .wy-menu-vertical li.toctree-l4 {
@@ -4966,13 +4946,13 @@ html {
 .wy-menu-vertical a {
     display: inline-block;
     line-height: 18px;
-    padding: .4045em 1.618em;
     display: block;
     position: relative;
     font-size: 90%;
 }
 
 .wy-menu-vertical a:hover {
+    background-color: transparent;
     cursor:pointer
 }
 
@@ -4982,7 +4962,6 @@ html {
 
 .wy-menu-vertical a:active {
     background: rgba(52,152,219,.2);
-    box-shadow: inset 3px 0 0 0 #3498db;
     cursor: pointer;
 }
 

@@ -135,23 +135,15 @@
             <span class="link-text">Submit an issue</span>
           </a>
           {% block menu %}
-            {#
-              The singlehtml builder doesn't handle this toctree call when the
-              toctree is empty. Skip building this for now.
-            #}
-            {% if 'singlehtml' not in builder %}
-              {% set global_toc = toctree(maxdepth=theme_navigation_depth|int,
-                                          collapse=theme_collapse_navigation|tobool,
-                                          includehidden=theme_includehidden|tobool,
-                                          titles_only=theme_titles_only|tobool) %}
-            {% endif %}
-            {% if global_toc %}
-              {{ global_toc }}
-            {% else %}
-              <!-- Local TOC -->
-              <div class="local-toc">{{ toc }}</div>
-            {% endif %}
-          {% endblock %}
+          {% set toctree = toctree(maxdepth=4, collapse=theme_collapse_navigation, includehidden=True) %}
+    
+          {% if toctree %}
+            {{ toctree }}
+          {% else %}
+            <!-- Local TOC -->
+            <div class="local-toc">{{ toc }}</div>
+          {% endif %}
+        {% endblock %}
         </div>
         {% endblock %}
       </div>
@@ -179,7 +171,6 @@
            {% endif%}
           </div>
           {%- endblock %}
-          {% include "footer.html" %}
         </div>
       {%- endblock %}
       </div>
@@ -199,6 +190,8 @@
   {%- block footer %} {% endblock %}
       </div>
       </div>
+    </div>
+    {% include "footer.html" %}
 </div>
 </body>
 </html>

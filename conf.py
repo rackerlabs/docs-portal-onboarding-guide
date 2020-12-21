@@ -98,7 +98,9 @@ html_theme = 'sphinx_rtd_theme'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    "collapse_navigation" : False
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # Add path to the RTD explicitly to robustify builds (otherwise might
@@ -132,6 +134,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['static']
 html_style = 'css/custom.css'
+html_js_files = ['js/main.js']
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
