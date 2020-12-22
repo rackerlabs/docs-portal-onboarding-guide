@@ -2722,14 +2722,6 @@ table {
     text-decoration:none
 }
 
-
-
-
-
-
-
-
-
 @media (min-width: 769px) {
     .sidebar-container.sticky {
         position: fixed;
