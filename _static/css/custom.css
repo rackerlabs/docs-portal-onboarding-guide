@@ -5162,7 +5162,6 @@ html {
 
 
 .wy-side-scroll {
-    width: 320px;
     position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -5255,21 +5254,50 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 
 .rst-footer-buttons {
-    transform-origin: 0 0
+    transform-origin: 0 0;
+    border-top: dotted 1px rgba(71,71,71,.3);
+    padding: 35px 0;
+    overflow: hidden;
+}
+.rst-footer-buttons .prev {
+    text-align: left;
 }
 
-.rst-footer-buttons:before, .rst-footer-buttons:after {
-    width:100%
+.rst-footer-buttons .next {
+    text-align: right;
 }
 
-.rst-footer-buttons:before, .rst-footer-buttons:after {
-    display: table;
-    content: ""
+.rst-footer-buttons .prev, .rst-footer-buttons .next {
+    @media screen and (min-width: 451px) {
+        -moz-box-sizing: border-box;
+        vertical-align: top;
+        margin-bottom: 0;
+    }
+}
+.rst-footer-buttons .prev, .rst-footer-buttons .next {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    vertical-align: top;
+    margin-bottom: 1.5em;
 }
 
-.rst-footer-buttons:after {
-    clear:both
+.rst-footer-buttons .label {
+    color: rgba(71,71,71,.6);
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: open-sans-bold,arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
+
+.rst-footer-buttons .prev a, .rst-footer-buttons .next a {
+    font-size: 14px;
+    display: inline;
+    position: relative;
+    text-decoration: underline;
+}
+
 
 .rst-breadcrumbs-buttons {
     margin-top: 12px;

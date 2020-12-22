@@ -73,7 +73,7 @@
               LANGUAGE:'{{ language }}',
               COLLAPSE_INDEX:false,
               FILE_SUFFIX:`{{ '' if no_search_suffix else file_suffix }}`,
-              HAS_SOURCE:  '{{ has_source|lower }},
+              HAS_SOURCE:  '{{ has_source|lower }}',
               SOURCELINK_SUFFIX: '{{ sourcelink_suffix }}'
           };
       </script>
@@ -124,7 +124,7 @@
   <div class="container-fluid">
     <div class="row">
     {# SIDE NAV, TOGGLES ON MOBILE #}
-    <div class="col-sm-12 col-md-3 col-lg-3">
+    <div class="col-sm-12 col-md-4 col-lg-3">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
 
@@ -151,7 +151,7 @@
   </div>
 
 
-<div class="col-sm-12 col-md-9 col-lg-9">
+<div class="col-sm-12 col-md-8 col-lg-9">
       <div class="wy-nav-content">
       {%- block content %}
         {% if theme_style_external_links|tobool %}
@@ -172,11 +172,24 @@
           </div>
           {%- endblock %}
         </div>
+        {%- if (theme_prev_next_buttons_location == 'bottom' or theme_prev_next_buttons_location == 'both') and (next or prev) %}
+        <div class="rst-footer-buttons row justify-content-between" role="navigation" aria-label="footer navigation">
+          {%- if prev %}
+          <div class="prev col-sm-12 col-md-6 col-lg-6 float-left">
+          <span class="label" aria-hidden="true">Previous</span>
+          <a href="{{ prev.link|e }}" title="{{ prev.title|striptags|e }}" accesskey="p" rel="prev">{{ prev.title|striptags|e }}</a>
+          </div>
+          {%- endif %}
+          {%- if next %}
+          <div class="next col-sm-12 col-md-6 col-lg-6 float-right">
+            <span class="label" aria-hidden="true">Next</span>
+            <a href="{{ next.link|e }}" title="{{ next.title|striptags|e }}" accesskey="n" rel="next">{{ next.title|striptags|e }}</a>
+          </div>
+          {%- endif %}
+        </div>
+      {%- endif %}
       {%- endblock %}
       </div>
-
-    
-
   
   {% include "versions.html" %}
 
