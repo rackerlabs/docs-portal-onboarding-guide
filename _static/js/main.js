@@ -1,9 +1,7 @@
 
 
-    let lastRenderArgs;
+let lastRenderArgs;
 let renderHTML = ``;
-const ALGOLIA_APP_ID = "KL3UEHFLE7";
-const ALGOLIA_API_KEY = "9216222240a120ca2d6c266ebd945046";
 const ALGOLIA_INDEX = "test_PRODUCT_DOCS";
     const infiniteHits = instantsearch.connectors.connectInfiniteHits(
       (renderArgs, isFirstRender) => {
