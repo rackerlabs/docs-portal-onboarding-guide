@@ -11,7 +11,7 @@ module.exports = {
     ],
     output: {
         path: path.resolve('build/html'),
-        filename: 'bundle.js',
+        filename: "bundle.js",
     },
   externals: {
     jquery: "jQuery"
@@ -19,9 +19,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js)x?$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        use: ['babel-loader']
       },
       {
         test: /\.css$/,
@@ -32,17 +32,23 @@ module.exports = {
         ],
       }
     ]
-  },
+    },
+    resolve: {
+        modules: ["node_modules"],
+        extensions: [".js", ".jsx"]
+    },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].css?[hash]",
+      filename: "bundle.css?[hash]",
       chunkFilename: "[name].css?[hash]"
     }),
     new webpack.DefinePlugin({
         // Provide enviroment variable defaults
         // from .env
         ALGOLIA_APP_ID: JSON.stringify(process.env.ALGOLIA_APP_ID),
-        ALGOLIA_API_KEY: JSON.stringify(process.env.ALGOLIA_API_KEY)
+        ALGOLIA_API_KEY: JSON.stringify(process.env.ALGOLIA_API_KEY),
+        ALGOLIA_SEARCH_KEY: JSON.stringify(process.env.ALGOLIA_SEARCH_KEY),
+        ALGOLIA_INDEX_NAME: JSON.stringify(process.env.ALGOLIA_INDEX_NAME),
     })
   ]
 };

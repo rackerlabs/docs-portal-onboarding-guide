@@ -42,10 +42,7 @@ class App extends Component {
   render() {
     return (
       <div className="ais-InstantSearch">
-        <InstantSearch indexName={ALGOLIA_INDEX_NAME} searchClient={searchClient} onSearchStateChange={searchState => {
-            const page = `?query=${searchState.query}`;
-            window.ga('send', 'pageView', page);
-        }}>
+        <InstantSearch indexName={ALGOLIA_INDEX_NAME} searchClient={searchClient}>
           <Configure hitsPerPage={16} />
           <SearchBox className="searchbox" translations={{ placeholder: 'Search across Support Docs', }} showLoadingIndicator />
             <Results>

@@ -200,12 +200,6 @@
   
   {% include "versions.html" %}
 
-  <script type="text/javascript">
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
-      });
-  </script>
-
   {# Do not conflict with RTD insertion of analytics script #}
   {%- block footer %} {% endblock %}
       </div>
@@ -213,6 +207,6 @@
     </div>
     {% include "footer.html" %}
 </div>
-<script type="text/javascript" src="{{ pathto('_static/js/index.js', 1) }}"></script>
+<script type="text/javascript" src="/bundle.js"></script>
 </body>
 </html>

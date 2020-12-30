@@ -23,6 +23,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
+    'sphinx_js'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -134,6 +135,7 @@ html_favicon = '_static/favicons/favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_style = 'css/custom.css'
+# html_js_files = ['']
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
@@ -147,7 +149,8 @@ html_last_updated_fmt = '%b %d, %Y'
 
 # If false, no module index is generated.
 #html_use_modindex = True
-
+primary_domain = 'js'
+js_source_path = ''
 # If false, no index is generated.
 #html_use_index = True
 
