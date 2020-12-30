@@ -148,8 +148,6 @@ html_last_updated_fmt = '%b %d, %Y'
 
 # If false, no module index is generated.
 #html_use_modindex = True
-primary_domain = 'js'
-js_source_path = ''
 # If false, no index is generated.
 #html_use_index = True
 
