@@ -5156,7 +5156,7 @@ html {
 
 .wy-side-scroll {
     position: relative;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: scroll;
     height:100%
 }
@@ -11329,7 +11329,7 @@ hr {
 }
 
 .wy-side-scroll {
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
     padding: 15px 15px 0;
 }
@@ -11551,7 +11551,6 @@ ul.current li a {
 
 body {
     font-family: sans-serif;
-    padding: 1em;
   }
   
   .ais-ClearRefinements {
@@ -11916,4 +11915,8 @@ body {
  .desktop-search {
    display: inline-block !important;
  }
+}
+
+.btn-white {
+    background-color: transparent !important;
 }

@@ -7,7 +7,7 @@
     "browserslist": "> 1%",
     "main": "_static/js/index.js",
     "scripts": {
-        "dev": "make clean html && webpack serve --config webpack.dev.js",
+        "dev": "npm run build && webpack serve --config webpack.dev.js",
         "build": "make clean html && webpack --config webpack.prod.js",
         "start": "run-p start:*",
         "start:sphinx": "make htmlview",
@@ -48,6 +48,7 @@
         "@algolia/algoliasearch-netlify-frontend": "^1.0.3",
         "@babel/cli": "^7.11.6",
         "@munter/tap-render": "^0.2.0",
+        "algolia-crawl": "^1.2.7",
         "algoliasearch": "^4.8.3",
         "assets-webpack-plugin": "^6.1.2",
         "atomic-algolia": "^0.3.19",
