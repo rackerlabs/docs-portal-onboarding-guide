@@ -6,8 +6,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 module.exports = {
     entry: [
-        path.resolve('_static', 'js', 'index.js'),
-        path.resolve('_static', 'css', 'styles.css'),
+      path.resolve('_static', 'js', 'index.js'),
+      path.resolve('_static', 'js', 'theme.js'),
+      path.resolve('_static', 'css', 'styles.css'),
     ],
     output: {
         path: path.resolve('build/html'),

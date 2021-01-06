@@ -26,7 +26,7 @@ module.exports = merge(common, {
       files: ["./**/*.rst", "./**/*.py"]
     }),
     new ShellPlugin({
-      onBuildStart: ["make clean html"],
+      onBuildStart: ["make html"],
     })
   ]
 });

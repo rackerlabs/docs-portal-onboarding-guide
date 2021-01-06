@@ -87,7 +87,6 @@
         <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
       {%- endfor %}
     {% endif %}
-    <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
 
     {# OPENSEARCH #}
     {%- if use_opensearch %}
@@ -207,6 +206,11 @@
     </div>
     {% include "footer.html" %}
 </div>
+<script type="text/javascript">
+  jQuery(function () {
+      SphinxRtdTheme.Navigation.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
+  });
+</script>
 <script type="text/javascript" src="/bundle.js"></script>
 </body>
 </html>
