@@ -133,7 +133,7 @@ html_favicon = '_static/favicons/favicon.ico'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_style = 'css/custom.css'
+html_style = 'css/styles.css'
 # html_js_files = ['']
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
