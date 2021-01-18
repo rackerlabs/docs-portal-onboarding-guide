@@ -6,12 +6,12 @@ const dotenv = require("dotenv");
 dotenv.config();
 module.exports = {
     entry: [
-      path.resolve('_static', 'js', 'index.js'),
-      path.resolve('_static', 'js', 'theme.js'),
-      path.resolve('_static', 'css', 'styles.css'),
+      path.resolve('docs', '_static', 'js', 'index.js'),
+      path.resolve('docs', '_static', 'js', 'theme.js'),
+      path.resolve('docs', '_static', 'css', 'styles.css'),
     ],
     output: {
-        path: path.resolve('build/html'),
+        path: path.resolve('docs/_build/html'),
         filename: "bundle.js",
     },
   externals: {
@@ -40,8 +40,8 @@ module.exports = {
     },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "bundle.css?[hash]",
-      chunkFilename: "[name].css?[hash]"
+      filename: "bundle.css?[chunkhash]",
+      chunkFilename: "[name].css?[chunkhash]"
     }),
     new webpack.DefinePlugin({
         // Provide enviroment variable defaults
