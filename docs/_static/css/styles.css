@@ -9876,6 +9876,18 @@ table {
     text-transform:uppercase
 }
 
+.toctree-wrapper.compound > .current > li.toctree-l1:first-of-type a {
+    font-family: titillium-regular,arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #474747;
+    display: block;
+    font-size: 16px;
+    padding: .4em .5em;
+    text-decoration: none;
+    text-transform: none;
+}
+
 
 
 .current > ul li a, ul li a {
@@ -11357,6 +11369,11 @@ ul.current>li.toctree-l1:first-of-type a, ul.current>li.toctree-l1:first-of-type
 ul.current li a.current {
     background: rgba(52,152,219,.2);
     box-shadow: inset 3px 0 0 0 #3498db;
+}
+
+.toctree-wrapper.compound > ul.current li a.current {
+    background: transparent;
+    box-shadow: inset 0px 0 0 0 #FFFFFF;
 }
 
 ul.current li a {
