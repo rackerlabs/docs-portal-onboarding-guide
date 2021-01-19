@@ -22,7 +22,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new ShellPlugin({
-      onBuildStart: ["cd docs && make dirhtml && cd .."],
+      onBuildStart: ["cd docs && make html && cd .."],
     })
   ]
 });
