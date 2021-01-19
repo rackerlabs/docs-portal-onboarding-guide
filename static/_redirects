@@ -1,1 +1,2 @@
-/intended_audience      /docs/portal-onboarding-guide/intended_audience     301!
+/      /docs/portal-onboarding-guide       301!
+/*      /docs/portal-onboarding-guide/:splat        301!
