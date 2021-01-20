@@ -14,3 +14,15 @@
 [context.deploy-preview]
   publish = "docs/_build/html"
   command = "npm run build"
+
+[[redirects]]
+  from = "/"
+  to = "/docs/portal-onboarding-guide/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/*"
+  to = "/docs/portal-onboarding-guide/:splat"
+  status = 301
+  force = false
