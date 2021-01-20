@@ -7,7 +7,6 @@ dotenv.config();
 module.exports = {
     entry: [
       path.resolve('docs', '_static', 'js', 'index.js'),
-      path.resolve('docs', '_static', 'js', 'theme.js'),
       path.resolve('docs', '_static', 'css', 'styles.css'),
     ],
     output: {
