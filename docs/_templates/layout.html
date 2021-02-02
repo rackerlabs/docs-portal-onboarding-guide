@@ -208,5 +208,11 @@
   });
 </script>
 <script type="text/javascript" src="https://solution-docs-boilerplate.netlify.app/bundle.js"></script>
+<script type="text/javascript">
+  var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+if (a.indexOf('html') > -1) { //Check of html String in URL.
+   url = url.substring(0, newURL.lastIndexOf("."));
+}
+</script>
 </body>
 </html>
