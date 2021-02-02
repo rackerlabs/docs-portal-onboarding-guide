@@ -16,7 +16,7 @@
   command = "cd docs && make clean html && cd .."
 
 [[redirects]]
-  from = "/*"
-  to = "/docs/portal-onboarding-guide/:splat"
+  from = "/docs/portal-onboarding-guide/*"
+  to = "/:splat"
   status = 301
   force = true
