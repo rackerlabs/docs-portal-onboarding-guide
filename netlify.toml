@@ -14,9 +14,3 @@
 [context.deploy-preview]
   publish = "docs/_build/html"
   command = "cd docs && make clean html && cd .."
-
-[[redirects]]
-  from = "/docs/portal-onboarding-guide/*"
-  to = "/:splat"
-  status = 301
-  force = true
