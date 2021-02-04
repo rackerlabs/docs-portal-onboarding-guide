@@ -29,7 +29,7 @@ Requesting an SLA credit
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Log in to the
-   `Rackspace Technology Customer Portal <login.rackspace.com>`_ .
+   `Rackspace Technology Customer Portal <https://login.rackspace.com>`_ .
 
 #. Create a support ticket and enter **Credit Request**
 in the **Subject** field.

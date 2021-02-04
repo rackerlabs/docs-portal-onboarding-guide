@@ -18,7 +18,7 @@ to verify new users. When an account
 administrator adds you as a user, you receive
 an email with your account registration code
 and instructions on how to log in to the
-`Rackspace Technology Customer Portal <login.rackspace.com>`_
+`Rackspace Technology Customer Portal <https://login.rackspace.com>`_
 for the first time.
 You need this registration code only during your
 first login or if you forget your user name.
@@ -43,7 +43,7 @@ allows you to complete common tasks easily.
 
 To access the global navigation menu:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 #. Select from the global navigation dropdown menu items.
 
 .. image:: /_static/img/global_nav.png

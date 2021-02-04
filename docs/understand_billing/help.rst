@@ -5,7 +5,7 @@ Get help with Rackspace Technology billing
 ==========================================
 
 If you're unable to find the information that
-you need in the `Rackspace Technology Portal <login.rackspace.com>`_
+you need in the `Rackspace Technology Portal <https://login.rackspace.com>`_
 or if you need more detailed billing and payment
 information, contact the Billing Support team.
 This team is available Monday through Friday

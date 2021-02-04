@@ -126,5 +126,5 @@ Payment services
 .. note::
 
     Role-Based Access Control (RBAC) is enabled for the billing-services level (BSL)
-    and payment-services level (PSL) only through the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+    and payment-services level (PSL) only through the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
     Rackspace Technology does not provide API access for BSL and PSL at this time.

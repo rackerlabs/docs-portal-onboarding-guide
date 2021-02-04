@@ -9,7 +9,7 @@ when a user leaves the company or the company or
 project name changes. Update this information for
 your Rackspace Technology Cloud and Amazon Web Services® (AWS)
 accounts through
-the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 .. note::
 
@@ -31,7 +31,7 @@ When you change the account owner:
 
 Complete the following steps to change the account owner:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account** > **Account Settings** from the global navigation menu.
 

@@ -9,7 +9,7 @@ Create a new user
 
 Use the following steps to create a new user:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 
@@ -34,7 +34,7 @@ Create a user group
 
 Follow these steps to create a user group:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 

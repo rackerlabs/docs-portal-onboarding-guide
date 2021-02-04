@@ -13,7 +13,7 @@ Dedicated customers can create and view support tickets.
 
 Complete the following steps to create a support ticket:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_
 #. Select **TICKETS > Create Ticket**.
 #. Select a suggested template from the
    **subject** drop-down menu or select **Create Custom Ticket**.

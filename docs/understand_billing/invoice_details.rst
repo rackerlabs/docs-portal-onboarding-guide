@@ -6,7 +6,7 @@ View invoice details
 
 To access detailed information about your invoices:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_ .
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_ .
 
 #. Select **Billing > Invoice Details**.
 

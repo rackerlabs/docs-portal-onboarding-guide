@@ -6,7 +6,7 @@ Update your billing information
 
 To modify basic billing information for your account, use the following steps:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_
 
 #. Select **Billing Settings**. The **Billing Settings** page displays.
 

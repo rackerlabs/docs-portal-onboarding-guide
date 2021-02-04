@@ -18,7 +18,7 @@ View your API key
 
 Follow these steps to view your API key:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Click your username and select **My Profile and Settings**
    from the global navigation menu.
@@ -33,7 +33,7 @@ Reset your API
 Follow these steps to reset your API key:
 
 #. Log in to the
-   `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+   `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Click your username and select **My Profile and Settings**
    from the global navigation menu.

@@ -25,7 +25,7 @@ Create a new user
 
 Use the following steps to create a new user:
 
-#. Log in to the `Rackspace Technology customer portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology customer portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 
@@ -41,7 +41,7 @@ Export a list of active users
 
 Use the following steps to export a list of active users:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 
@@ -53,7 +53,7 @@ Deactivate a user
 
 Use the following steps to deactivate a user:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 

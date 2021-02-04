@@ -12,7 +12,7 @@ View an API key
 
 Use the following steps to view API key for all users on your account:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 
@@ -25,7 +25,7 @@ Reset the API
 
 Use the following steps to reset the API key for a user on your account:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Account > User Management** from the global navigation menu.
 
