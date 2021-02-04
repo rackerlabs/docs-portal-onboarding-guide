@@ -83,15 +83,14 @@
       </div>
     {%- endif %}
       {%- endblock %}
-  
   {% include "versions.html" %}
-
   {# Do not conflict with RTD insertion of analytics script #}
-  {%- block footer %} {% endblock %}
       </div>
       </div>
     </div>
-    {% include "footer.html" %}
 </div>
+{%- block footer %}
+{% include "footer.html" %}
+{% endblock %}
 </body>
 </html>
