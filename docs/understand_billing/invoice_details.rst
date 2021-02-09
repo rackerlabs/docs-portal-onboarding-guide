@@ -6,13 +6,13 @@ View invoice details
 
 To access detailed information about your invoices:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_ .
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_ .
 
 #. Select **Billing > Invoice Details**.
 
    A detailed view of your most recent invoice displays.
 
-   .. image:: /_static/invoice-detailed.png
+   .. image:: /_static/img/invoice-detailed.png
     :alt: **detailed invoice**
 
    Line items appear under the **Total Charges** section. To expand a line
@@ -23,7 +23,7 @@ To access detailed information about your invoices:
    the cost associated with each device, select the down arrow to the left of
    **Devices**.
 
-  .. image:: /_static/devices.png
+  .. image:: /_static/img/devices.png
     :alt: **device area**
 
 To download an invoice, select the **PDF** or the **CSV** link at the

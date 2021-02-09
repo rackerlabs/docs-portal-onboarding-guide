@@ -12,7 +12,7 @@ Add a payment method
 
 To add a payment method:
 
-#. Log in to the `Rackspace Technology Customer Portal <login.rackspace.com>`_.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
 #. Select **Billing > Payment Methods**.
 
