@@ -15,4 +15,6 @@ Rackspace Technology users and groups.
    primary_contact.rst
    change_account_name.rst
    change_owner.rst
+   acct_switcher.rst
+   how_account.rst
 
