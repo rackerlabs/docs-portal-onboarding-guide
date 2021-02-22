@@ -16,5 +16,4 @@ Rackspace Technology users and groups.
    change_account_name.rst
    change_owner.rst
    acct_switcher.rst
-   how_account.rst
 
