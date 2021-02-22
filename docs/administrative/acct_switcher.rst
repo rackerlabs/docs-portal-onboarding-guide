@@ -10,7 +10,7 @@ relationships across many different cloud accounts to manage their accounts.
 Customers who fit this criteria and use
 Rackspace Federated Identity to access the cloud portal can access this feature.
 
-.. image:: /_static/img/acct_switcher.png
+.. image:: /_static/img/acc_switcher.png
     :alt: **account switchere**
 
 
