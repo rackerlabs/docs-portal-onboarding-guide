@@ -10,6 +10,10 @@ relationships across many different cloud accounts to manage their accounts.
 Customers who fit this criteria and use
 Rackspace Federated Identity to access the cloud portal can access this feature.
 
+.. image:: /_static/img/acct_switcher.png
+    :alt: **account switchere**
+
+
 .. note::
 
    Account switcher is currently only available for Fanatical Amazon Web Services (FAWS) customers
@@ -20,9 +24,7 @@ log in and out of multiple accounts. Log into the Rackspace Technology
 customer portal and then use the account linking dropdown
 to navigate to other connected accounts.
 
-.. note::
-
-   Contact your customer support manager to request access to Account switcher.
+Contact your customer support manager to request access to Account switcher.
 
 The following sections provide additional information about the account switcher
 feature.
