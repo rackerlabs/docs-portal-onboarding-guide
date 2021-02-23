@@ -1,8 +1,8 @@
 .. current_usage:
 
-==================
-TEST
-==================
+========================
+View your current usage
+========================
 
 The center panel of the **Billing Dashboard**
 displays your **Charges to Date**.
