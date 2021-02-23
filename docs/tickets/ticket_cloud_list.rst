@@ -58,17 +58,4 @@ ticket list.
 |            | upload additional   |
 |            | files.              |
 +------------+---------------------+
-| 9          | Select              |
-|            | **Close Ticket** to |
-|            | close a selected    |
-|            | ticket. This also   |
-|            | displays a survey   |
-|            | about the support   |
-|            | experience and      |
-|            | confirmation that   |
-|            | the ticket will be  |
-|            | closed. No          |
-|            | additional comments |
-|            | can be made.        |
-+------------+---------------------+
 
