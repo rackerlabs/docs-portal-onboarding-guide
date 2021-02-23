@@ -10,10 +10,6 @@ relationships across many different cloud accounts to manage their accounts.
 Customers who fit this criteria and use
 Rackspace Federated Identity to access the cloud portal can access this feature.
 
-.. image:: /_static/img/acc_switcher.png
-    :alt: **account switchere**
-
-
 .. note::
 
    Account switcher is currently only available for Fanatical Amazon Web Services (FAWS) customers

@@ -21,3 +21,7 @@ Complete the following steps to gain access to the Account Switcher feature:
 
 #. Log into the Rackspace Technology customer portal. Use the account switcher drop-down
    to switch between linked accounts.
+
+
+.. image:: /_static/img/acc_switcher.png
+    :alt: **account switcher**
