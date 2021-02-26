@@ -41,4 +41,6 @@ feature.
    :maxdepth: 1
 
    access_account.rst
-   account_limitations.rst
+   access_permissions_users.rst
+   access_permissions
+   account_revoke.rst

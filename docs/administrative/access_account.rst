@@ -4,7 +4,8 @@
 Get access to Account switcher
 ===============================
 
-The Account switcher feature is not available for all customers.
+The Account switcher feature is only available for customers with multiple accounts
+who use Federated Identity to access these features.
 
 Complete the following steps to gain access to the Account Switcher feature:
 
