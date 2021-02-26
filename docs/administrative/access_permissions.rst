@@ -25,7 +25,7 @@ Manage group permissions in the principal account
    navigate to linked accounts.
 
 #. Select a trusting account and
-   follow the steps to :ref`user settings`.
+   follow the steps to :ref`user_settings`.
 
 .. image:: /_static/img/acct_groups.png
     :alt: **account switcher**

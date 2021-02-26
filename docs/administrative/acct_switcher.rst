@@ -8,23 +8,22 @@ Account switcher
 
    This feature is currently in beta
 
+The Account switcher feature simplifies the account management
+process by making it easy to quickly
+log in and out of multiple accounts.
+
 Account switcher helps large
 enterprise customers with sprawling
-relationships across many different cloud accounts to manage these accounts.
-Customers who fit this criteria and use
-Rackspace Federated Identity to access the cloud portal can access use Account switching
-to streamline their workflow.
+relationships and Federated Identity management to streamline their workflow.
 
 .. note::
 
    Account switcher is currently only available for Fanatical Amazon Web Services (FAWS) customers.
 
-The Account switcher feature simplifies the account management
-process by making it easy to quickly
-log in and out of multiple accounts.
+
 
 Domain trust
--------------
+~~~~~~~~~~~~~~~
 Account switching uses domain trust to create an agreement that allows a principal
 account to access a delegate account.
 

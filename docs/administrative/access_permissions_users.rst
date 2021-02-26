@@ -27,7 +27,7 @@ View users in the principal account
 Manage users
 ~~~~~~~~~~~~~~
 
-Selecting a user displays standard information outlined in the :ref`_user settings` section
+Selecting a user displays standard information outlined in the :ref`user settings` section
 as well as options specific to the account switcher feature.
 
 - Dropdown menu to switch between linked accounts.
