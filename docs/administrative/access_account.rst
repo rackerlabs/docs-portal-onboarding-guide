@@ -4,8 +4,9 @@
 Get access to Account switcher
 ===============================
 
-The Account switcher feature is only available for customers with multiple accounts
-who use Federated Identity to access these features.
+The Account switcher feature is only available for Fanatical Amazon Web Services (FAWS) customers
+who use `Rackspace Technology Identity Federation <https://docs.rackspace.com/docs/rackspace-federation/>`_
+to access their accounts..
 
 Complete the following steps to gain access to the Account Switcher feature:
 
@@ -20,8 +21,8 @@ Complete the following steps to gain access to the Account Switcher feature:
    You will receive a notification once the account linking
    is complete.
 
-#. Log into the Rackspace Technology customer portal. Use the account switcher drop-down
-   to switch to all delegate accounts.
+#. Log into the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_. Use the account switcher drop-down
+   to switch to delegate accounts.
 
    Ticketing information is only visible for the account that you are currently
    accessing. Use the account switcher

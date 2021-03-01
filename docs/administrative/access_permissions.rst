@@ -24,23 +24,15 @@ Manage group permissions in the principal account
 #. Use the Group permissions dropdown menu to
    navigate to linked accounts.
 
-#. Select a trusting account and
-   follow the steps to :ref`user_settings`.
-
-.. image:: /_static/img/acct_groups.png
+   .. image:: /_static/img/acct_groups.png
     :alt: **account switcher**
 
-
-Manage federated identity product permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#. Select a trusting account and
+   follow the steps to :ref:`user_settings`.
 
 Additional product permissions are available for Federated Identity groups.
-
-Select the the Federated Identity Users tab and select from the available
+Select the the Federated Identity Users tab and choose from the available
 options.
-
-.. image:: /_static/img/acct_products.png
-    :alt: **account switcher**
 
 #. Toggle the switch to allow group members to create new AWS accounts.
 
@@ -52,4 +44,5 @@ options.
 
 #. Edit additional product permissions.
 
-
+.. image:: /_static/img/acct_products.png
+    :alt: **account switcher**
