@@ -28,7 +28,7 @@ Manage group permissions in the principal account
     :alt: **account switcher**
 
 #. Select a trusting account and
-   follow the steps to :ref:`user_settings`.
+   follow the steps to :ref:`manage your user groups<user_settings>`.
 
 Additional product permissions are available for Federated Identity groups.
 Select the the Federated Identity Users tab and choose from the available
