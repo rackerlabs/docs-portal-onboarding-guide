@@ -12,8 +12,8 @@ Complete the following steps to gain access to the Account Switcher feature:
 
 #. Contact your Customer Support Manager (CSM).
 
-   Your CSM will help you to determine if your account is compatible
-   with the account switcher feature.
+   Your CSM will help you to determine if your account setup is a candidate for the
+   account switcher beta.
 
 #. Complete the legal agreement document and attach it to a
    support ticket. This document requires information
@@ -28,9 +28,8 @@ Complete the following steps to gain access to the Account Switcher feature:
    accessing. Use the account switcher
    dropdown to change to the account for which you want to view tickets.
 
-   The notifications section will always display notifications
-   for all linked accounts. Notifications will include the account number
-   to allow you sort between different linked accounts.
+   You will always see notifications for your primary account.
+   You will not see notifications for other principal/trusted accounts.
 
 .. note::
 

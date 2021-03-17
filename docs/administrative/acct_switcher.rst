@@ -12,14 +12,17 @@ Account switcher
 
 The Account switcher feature simplifies the account management
 process by making it easy to quickly
-log in and out of multiple accounts. Account switcher helps large
+quickly switch which Rackspace account the user is currently working within.
+Account switcher helps large
 enterprise customers with sprawling
 relationships and Federated Identity management to streamline their workflow.
 
-Domain trust
+Account linking
 ~~~~~~~~~~~~~~~
-Account switching uses domain trust to create an agreement that allows a principal
-account to access a delegate account. Members of the principal account
+Account Linking may occur after multiple accounts are
+linked together via an agreement. In this model, users
+from a delegate Rackspace account may be granted access
+to resources in a principal Rackspace account. Members of the principal account
 can log into the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_
 and use the account linking dropdown
 to navigate to connected delegate accounts.
