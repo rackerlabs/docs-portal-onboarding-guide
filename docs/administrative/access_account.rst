@@ -1,35 +1,34 @@
 .. _access_account:
 
 ===============================
-Get access to Account switcher
+Get access to Account Switcher
 ===============================
 
-The Account switcher feature is only available for Fanatical Amazon Web Services (FAWS) customers
+The Account Switcher feature is only available for Fanatical Amazon Web Services (FAWS) customers
 who use `Rackspace Technology Identity Federation <https://docs.rackspace.com/docs/rackspace-federation/>`_
-to access their accounts..
+to access their accounts.
 
 Complete the following steps to gain access to the Account Switcher feature:
 
 #. Contact your Customer Support Manager (CSM).
 
-   Your CSM will help you to determine if your account setup is a candidate for the
-   account switcher beta.
+   Your CSM helps you determine if your account setup is a candidate for the
+   Account Switcher beta.
 
 #. Complete the legal agreement document and attach it to a
    support ticket. This document requires information
    about the accounts you plan to link.
-   You will receive a notification once the account linking
-   is complete.
+   You receive a notification after the account linking completes.
 
-#. Log into the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_. Use the account switcher drop-down
-   to switch to delegate accounts.
+#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_. Use the Account Switcher
+   drop-down menu option to switch to delegate accounts.
 
-   Ticketing information is only visible for the account that you are currently
-   accessing. Use the account switcher
-   dropdown to change to the account for which you want to view tickets.
+   You can see ticketing information for only the account that you are currently
+   accessing. Use the Account Switcher
+   drop-down menu option to change to the account for which you want to view tickets.
 
-   You will always see notifications for your primary account.
-   You will not see notifications for other principal/trusted accounts.
+   You always see notifications for your primary account.
+   You do not see notifications for other principal or trusted accounts.
 
 .. note::
 
