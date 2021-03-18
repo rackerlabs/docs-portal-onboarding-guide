@@ -4,7 +4,7 @@
 Group permissions for linked accounts
 =======================================
 
-Once Domain trust has been established
+After you establish Domain trust
 between the principal account and delegate accounts,
 principal account administrators can create groups
 and assign permissions.
@@ -21,7 +21,7 @@ Manage group permissions in the principal account
 
 #. Select the **User groups** tab.
 
-#. Use the Group permissions dropdown menu to
+#. Use the **Group permissions** drop-down menu to
    navigate to linked accounts.
 
    .. image:: /_static/img/acct_groups.png
@@ -30,19 +30,20 @@ Manage group permissions in the principal account
 #. Select a trusting account and
    follow the steps to :ref:`manage your user groups<user_settings>`.
 
-Additional product permissions are available for Federated Identity groups.
-Select the the Federated Identity Users tab and choose from the available
+Federated Identity groups have additional product permissions.
+Select the **Federated Identity Users** tab and choose from the available
 options.
 
 #. Toggle the switch to allow group members to create new AWS accounts.
 
       .. note::
 
-      This option is only available for the principal account.
+      This option is available for only the principal account.
 
-#. Select a default AWS IAM policy from the dropdown.
+#. Select a default AWS IAM policy from the drop-down list.
 
 #. Edit additional product permissions.
 
 .. image:: /_static/img/acct_products.png
     :alt: **account switcher**
+    
