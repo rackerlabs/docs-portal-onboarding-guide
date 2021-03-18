@@ -4,7 +4,7 @@
 Get access to Account Switcher
 ===============================
 
-The Account Switcher feature is only available for Fanatical Amazon Web Services (FAWS) customers
+The Account Switcher feature is available for only Fanatical Amazon Web Services (FAWS) customers
 who use `Rackspace Technology Identity Federation <https://docs.rackspace.com/docs/rackspace-federation/>`_
 to access their accounts.
 
