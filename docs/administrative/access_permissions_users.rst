@@ -4,7 +4,7 @@
 User permissions for linked accounts
 =======================================
 
-Once Domain trust has been established
+After you establish Domain trust
 between the principal account and delegate accounts,
 principal account administrators can manage permissions
 for users in their account.
@@ -27,16 +27,16 @@ View users in the principal account
 Manage users
 ~~~~~~~~~~~~~~
 
-Selecting a user displays standard information outlined in the :ref:`manage your users<user_settings>` section
-as well as options specific to the account switcher feature.
+Selecting a user displays standard information outlined in the :ref:`manage your users<user_settings>` section,
+as well as options specific to the Account Switcher feature.
 
-- Dropdown menu to switch between linked accounts.
+- Use the drop-down menu to switch between linked accounts.
 
-- Toggle to give user permission to create new AWS accounts.
+- Toggle to give a user permission to create new AWS accounts.
 
    .. note::
 
-      This option is only available for the principal account.
+      This option is available for only the principal account.
 
 .. image:: /_static/img/acct_single_users.png
     :alt: **account switcher**
