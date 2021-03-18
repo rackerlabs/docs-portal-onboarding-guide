@@ -1,10 +1,10 @@
 .. _account_revoke:
 
 =============================
-Remove account switching
+Remove Account Switching
 =============================
 
 Contact support to revoke domain trust between a
-principal account and a delegate account which will
-remove the account switching feature.
+principal account and a delegate account. This action
+removes the Account Switching feature.
 
