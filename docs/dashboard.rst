@@ -12,7 +12,7 @@ To view the solutions dashboard:
 
 #. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
-#. Select the **Select a Product** dropdown in the upper left.
+#. Click the **Select a Product** dropdown in the upper-left.
 
     .. image:: /_static/img/my_account.png
         :alt: **dropdown menu to view solutions dashboard**
