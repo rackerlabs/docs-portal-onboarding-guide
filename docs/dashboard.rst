@@ -19,7 +19,9 @@ To view the solutions dashboard:
 
 #. Select **My Accounts**. The solutions dashboard displays.
 
-   Use the search bar or select the funnel icon to search or filter available account.
+   Use the search bar or select the funnel icon to search or filter available accounts.
+
+   Select an account to display additional details, if available. 
 
     .. image:: /_static/img/solutions_dashboard.png
         :alt: **the solutions dashboard**
