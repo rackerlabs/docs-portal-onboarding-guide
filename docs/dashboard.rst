@@ -1,6 +1,6 @@
 .. _dashboard:
 
-=======================================================
+=========================================================
 Rackspace Technology customer portal solutions dashboard
 =========================================================
 
@@ -21,7 +21,7 @@ To view the solutions dashboard:
 
    Use the search bar or select the funnel icon to search or filter available accounts.
 
-   Select an account to display additional details, if available. 
+   Select an account to display additional details, if available.
 
     .. image:: /_static/img/solutions_dashboard.png
         :alt: **the solutions dashboard**
