@@ -1,7 +1,7 @@
 .. _dashboard:
 
 ==================
-account dashboard
+Account dashboard
 ==================
 
 The account dashboard displays all your Rackspace Technology accounts in a single view.
