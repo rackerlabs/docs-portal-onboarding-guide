@@ -7,7 +7,7 @@ Manage your notifications
 Select the **Notifications** drop-down menu from the global
 navigation menu to view important updates related to your account.
 
-.. image:: /../_static/img/notifications_main.png
+.. image:: _static/img/notifications_main.png
     :alt: **notifications page**
 
 You can perform the following actions from the **Notifications** page:
