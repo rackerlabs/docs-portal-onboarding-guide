@@ -95,10 +95,6 @@ else:
 # The master toctree document.
 master_doc = 'index'
 
-redirects = {
-    "tickets/_images/*":"_images/*"
-}
-
 # linkcheck options
 linkcheck_ignore = ['https://pages.github.rackspace.com*',
                     'https://pitchfork.eco.rackspace.com*']
