@@ -18,12 +18,12 @@ Complete the following steps to create a support ticket:
 #. Select a suggested template from the
    **subject** drop-down menu or select **Create Custom Ticket**.
 
-      .. image:: create_dedicated_ticket.png
+      .. image:: /../_images/create_dedicated_ticket.png
          :alt: **create a ticket dropdown**
 
 #. Complete the displayed fields.
 
-      .. image:: dedicated_ticket_2.png
+      .. image:: /../_images/dedicated_ticket_2.png
          :alt: **create a ticket dropdown**
 
 #. Select **Create Ticket**.
@@ -35,7 +35,7 @@ The ticket list
 The ticket list allows you to create new support tickets and
 review previously opened or closed support tickets.
 
-      .. image:: private_cloud_list.png
+      .. image:: /../_images/private_cloud_list.png
          :alt: **create a ticket dropdown**
 
 
