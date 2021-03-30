@@ -23,7 +23,7 @@ to reflect the most recent information.
 The following image shows the subject
 line of a situation ticket:
 
-    .. image:: //docs/portal-onboarding-guide/_images/situation_subject.png
+    .. image:: /_images/situation_subject.png
         :alt: **subject line for situation tickets**
 
 The following table describes the
@@ -56,7 +56,7 @@ and the Rackspace Notification System (RNS).
 The following image shows an updated sample
 situation ticket:
 
-  .. image:: //docs/portal-onboarding-guide/_images/additional_comments.png
+  .. image:: /_images/additional_comments.png
         :alt: **situation tickets additional comments**
 
 The following table explains how
@@ -103,7 +103,7 @@ updates the situation ticket with summary information.
      including any alerts that you did not previously receive because
      they were initially internal to Rackspace Technology.
 
-.. image:: //docs/portal-onboarding-guide/_images/ticket_summary.png
+.. image:: /_images/ticket_summary.png
     :alt: **situation tickets additional comments**
 
 Refer to the following table to understand how to interpret a
@@ -135,7 +135,7 @@ page in the Rackspace Technology Customer Portal.
 To navigate to the **Notifications** page, click
 the link in the ticket.
 
-  .. image:: //docs/portal-onboarding-guide/_images/rns.png
+  .. image:: /_images/rns.png
         :alt: **situation tickets additional comments**
 
 RNS filters the **Notifications** page to include only the notifications
@@ -150,7 +150,7 @@ page, you can perform the following actions:
   so that you do not receive notification emails for each
   alert posted to the **Notifications** page.
 
-  .. image:: //docs/portal-onboarding-guide/_images/rns2.png
+  .. image:: /_images/rns2.png
         :alt: **situation tickets additional comments**
 
 Notification emails
@@ -163,7 +163,7 @@ for each situation ticket and all associated alerts.
 To receive emails for only the situation ticket,
 refer to **Configure notification email preferences**.
 
-  .. image:: //docs/portal-onboarding-guide/_images/situation_email.png
+  .. image:: /_images/situation_email.png
         :alt: **situation tickets additional comments**
 
 Configure notification email preferences
