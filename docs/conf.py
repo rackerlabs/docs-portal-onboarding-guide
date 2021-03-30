@@ -47,7 +47,8 @@ except ImportError:
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
-    'sphinx.ext.extlinks'
+    'sphinx.ext.extlinks',
+    'sphinx_reredirects'
 ]
 
 if spelling is not None:
@@ -94,6 +95,9 @@ else:
 # The master toctree document.
 master_doc = 'index'
 
+redirects = {
+    "tickets/_images/*":"_images/*"
+}
 
 # linkcheck options
 linkcheck_ignore = ['https://pages.github.rackspace.com*',
