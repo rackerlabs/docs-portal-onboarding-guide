@@ -47,8 +47,7 @@ except ImportError:
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
-    'sphinx.ext.extlinks',
-    'sphinx_reredirects'
+    'sphinx.ext.extlinks'
 ]
 
 if spelling is not None:
