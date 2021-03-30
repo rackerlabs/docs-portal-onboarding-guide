@@ -11,7 +11,7 @@ from the **user settings** drop-down menu.
 
 Current options are within the Rackspace portal or by email.
 
-.. image:: /_static/img/notificationimage.png
+.. image:: /_images/notificationimage.png
     :alt: **charges to date**
 
 .. note::
