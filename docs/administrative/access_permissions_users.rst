@@ -20,7 +20,7 @@ View users in the principal account
 
 #. Select a user.
 
-.. image:: /_images/acct_users.png
+.. image:: //docs/portal-onboarding-guide/_images/acct_users.png
     :alt: **account switcher**
 
 
@@ -38,5 +38,5 @@ as well as options specific to the Account Switcher feature.
 
       This option is available for only the principal account.
 
-.. image:: /_images/acct_single_users.png
+.. image:: //docs/portal-onboarding-guide/_images/acct_single_users.png
     :alt: **account switcher**

@@ -9,7 +9,7 @@ review previously opened or closed support tickets.
 
 From the global navigation menu, select **TICKETS > Ticket Lists**.
 
-.. image:: /_images/ticket-list.png
+.. image:: //docs/portal-onboarding-guide/_images/ticket-list.png
     :alt: **the ticket list**
 
 The following table includes a description of the different sections of the

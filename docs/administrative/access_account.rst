@@ -34,5 +34,5 @@ Complete the following steps to gain access to the Account Switcher feature:
 
     Support cannot verify you over the phone for linked accounts.
 
-.. image:: /_images/acc_switcher.png
+.. image:: //docs/portal-onboarding-guide/_images/acc_switcher.png
     :alt: **account switcher**

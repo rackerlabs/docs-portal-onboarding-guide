@@ -26,6 +26,6 @@ Perform the following steps, as needed:
     take up to 24 hours to appear on this page. Additionally, some charge totals only appear after any
     discounts have been applied.
 
-.. image:: /_images/chargestodate.png
+.. image:: //docs/portal-onboarding-guide/_images/chargestodate.png
     :alt: **charges to date**
 
