@@ -24,7 +24,7 @@ Manage group permissions in the principal account
 #. Use the **Group permissions** drop-down menu to
    navigate to linked accounts.
 
-   .. image:: /_static/img/acct_groups.png
+   .. image:: /_images/acct_groups.png
     :alt: **account switcher**
 
 #. Select a trusting account and
@@ -44,6 +44,6 @@ options.
 
 #. Edit additional product permissions.
 
-.. image:: /_static/img/acct_products.png
+.. image:: /_images/acct_products.png
     :alt: **account switcher**
     
