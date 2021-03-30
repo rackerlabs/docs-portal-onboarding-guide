@@ -12,7 +12,7 @@ To access detailed information about your invoices:
 
    A detailed view of your most recent invoice displays.
 
-   .. image:: //_static/img/invoice-detailed.png
+   .. image:: /../_static/img/invoice-detailed.png
     :alt: **detailed invoice**
 
    Line items appear under the **Total Charges** section. To expand a line
@@ -23,7 +23,7 @@ To access detailed information about your invoices:
    the cost associated with each device, select the down arrow to the left of
    **Devices**.
 
-  .. image:: //_static/img/devices.png
+  .. image:: /../_static/img/devices.png
     :alt: **device area**
 
 To download an invoice, select the **PDF** or the **CSV** link at the
