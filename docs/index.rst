@@ -17,6 +17,7 @@ The following sections provide information about the Customer Portal:
    Rackspace Technology Customer Portal Onboarding Guide <self>
    intended_audience.rst
    introduction.rst
+   dashboard.rst
    portal_profile/index.rst
    manage_portal_user_groups/index.rst
    administrative/index.rst
