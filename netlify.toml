@@ -20,3 +20,35 @@
   to = "/docs/portal-onboarding-guide/:splat"
   status = 301
   force = false
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+  buildDir = "_build/html/docs/portal-onboarding-guide"
+  prettyURLs = true
+  trailingSlash = true
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+[[plugins]]
+  package = 'netlify-plugin-search-index'
+
+
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+	[plugins.inputs]
+
+	# The base url of your site (optional, default = main URL set in Netlify)
+	baseUrl = "https://docs.rackspace.com/docs/portal-onboarding-guide"
+
+	# Path to the sitemap URL (optional, default = /sitemap.xml)
+	sitemapPath = "/sitemap.xml"
+
+	# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+	providers = [
+		"google",
+		"bing",
+		"yandex"
+	]
