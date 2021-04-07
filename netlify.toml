@@ -28,5 +28,6 @@
   package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = "_build"
+  filePath = "/html/docs/portal-onboarding-guide"
   prettyURLs = true
   trailingSlash = true
