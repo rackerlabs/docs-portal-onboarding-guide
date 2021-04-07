@@ -28,6 +28,9 @@
   package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = "docs"
+  filePath = "_build/html/docs/portal-onboarding-guide/sitemap.xml"
+  prettyURLs = true
+  trailingSlash = true
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
