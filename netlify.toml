@@ -24,7 +24,7 @@
   to = "/docs/portal-onboarding-guide/sitemap.xml"
   status = 301
   force = false
-  
+
 [[redirects]]
   from = "/*"
   to = "/docs/portal-onboarding-guide/:splat"
@@ -34,7 +34,8 @@
 [[plugins]]
   package = "@netlify/plugin-sitemap"
   [plugins.inputs]
-  buildDir = "_build/html/docs/portal-onboarding-guide"
+  buildDir = "_build"
+  filePath = "html/docs/portal-onboarding-guide/sitemap.xml"
   prettyURLs = true
   trailingSlash = true
 
