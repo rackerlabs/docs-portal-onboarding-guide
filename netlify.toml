@@ -15,6 +15,8 @@
   publish = "docs/_build/html"
   command = "cd docs && make clean html && cd .."
 
+[functions]
+  directory = "functions"
 [[redirects]]
   from = "/*"
   to = "/docs/portal-onboarding-guide/:splat"
