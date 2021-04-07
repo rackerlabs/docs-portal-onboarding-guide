@@ -17,12 +17,6 @@
 
 [functions]
   directory = "functions"
-
-[[redirects]]
-  from ="/sitemap.xml"
-  to = "/docs/portal-onboarding-guide/sitemap.xml"
-  status = 301
-  force = false
   
 [[redirects]]
   from = "/*"
