@@ -33,12 +33,6 @@
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
 
-[[plugins]]
-  package = 'netlify-plugin-search-index'
-  [plugins.inputs]
-    generatedFunctionName = 'null'
-    publishDirJSONFileName = 'searchIndex' # you can use / to nest in a directory
-
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
