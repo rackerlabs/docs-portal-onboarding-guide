@@ -100,7 +100,7 @@ linkcheck_ignore = ['https://pages.github.rackspace.com*',
 linkcheck_anchors = False
 
 # General information about the project.
-project = 'Rackspace Technology customer portal onboarding guide'
+project = 'Rackspace Technology Customer Portal Onboarding Guide'
 copyright = '2020, Rackspace Technology'
 
 # The version info for the project you're documenting, acts as replacement for
