@@ -1,4 +1,13 @@
-.. _change_account_name:
+---
+permalink: change-account-company-name
+audit_date: '2018-03-13'
+title: Change an account's company name
+type: article
+created_date: '2018-03-13'
+created_by: Rackspace Support
+last_modified_date: '2022-07-04'
+last_modified_by: Rohit Rajput 
+---
 
 Change your account's company name
 ====================================
