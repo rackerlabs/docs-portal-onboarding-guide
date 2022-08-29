@@ -4,43 +4,37 @@
 Change your cloud account owner
 ===================================
 
-You might need to change the primary user, also known as the account owner,
-when a user leaves the company or the company or
-project name changes. Update this information for
+When a Primary User/Account Owner leaves the company or the name of the company or
+project changes, then you need to change the Primary User/Account Owner. 
+To Update this information for
 your Rackspace Technology Cloud and Amazon Web Services® (AWS)
-accounts through
-the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
+accounts, Login to `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
-.. note::
+**Note: Only the current Acount Owner can assign a New Account Owner.**
 
-      Only the current account owner can assign a new account owner.
-
-When you change the account owner:
+**When you Change the Account Owner**:
 
 - You must select the new or promoted user
-  from existing users on the account. The selected
-  user becomes the primary contact and has full control over the account.
+  from existing users on the account. 
+
+- The selected user becomes the Primary Contact and has full control over the account.
 
 - As the former or demoted primary user, you are set
   up as an Administrative contact type and given
   basic `Role-Based Access Control (RBAC)
   Identity permissions <https://developer.rackspace.com/docs/cloud-identity/v2/getting-started/>`_.
   The primary user might need to set up
-  RBAC permissions for the demoted user, depending on the use case.
+  RBAC permissions for the demoted user.
 
 
-Complete the following steps to change the account owner:
+You can **Change the Account Owner** by using the following steps:
 
-#. Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
+**Step 1** Log in to the `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
-#. Select **Account** > **Account Settings** from the global navigation menu.
+**Step 2** In the global navigation menu, click **Account** >> **Account Settings**.
 
-#. Select **Update** next to the Account Owner.
+**Step 3** In Account Settings page, click **update** next to **Account Owner**.
 
-#. Select the radio button for the user
-   that you want to assign as the new account owner.
+**Step 3** In Update Account Owner page, select a **User** from the User list to be assigned as New Account Owner. Fill in the address details of Account Owner and click **Submit**.
 
-#. Add the account owner’s address and select **Submit**.
-
-#. When prompted to confirm the account update,
-   type **CONFIRM** in the text box and select **Complete**.
+**Step 5** Click **Confirm** to change the **Primary Account Owner**.
