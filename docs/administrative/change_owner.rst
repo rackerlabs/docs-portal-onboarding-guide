@@ -37,12 +37,19 @@ You can **Change the Account Owner** by using the following steps:
    :width: 590
    :alt: accountsetting 
 
+
 **Step 3** In Account Settings page, click **update** next to **Account Owner**.
 
 .. image:: 
    :width: 
-   :alt:
+   :alt: 
+
 
 **Step 3** In Update Account Owner page, select a **User** from the User list to be assigned as New Account Owner. Fill in the address details of Account Owner and click **Submit**.
+
+.. image:: 
+   :width: 
+   :alt: 
+
 
 **Step 5** Click **Confirm** to change the **Primary Account Owner**.
