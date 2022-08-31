@@ -17,11 +17,11 @@ You can download the **Primary Contact Change** form by using the following step
    :width: 718
    :alt: accdocs&forms
 
+
 **Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Complete the **Primary Contact Change Form** and attach it yo your support ticket. 
 
+.. image:: changeprimarycontactform.png
+   :width: 647
+   :alt: changeprimarycontactform
 
 
-
- For more information about
-submitting a ticket to change the primary contact for your account,
-refer to the :ref:`tickets` section of this guide.
