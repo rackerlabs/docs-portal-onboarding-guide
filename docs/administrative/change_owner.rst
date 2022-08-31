@@ -1,7 +1,7 @@
 .. _change_owner:
 
 ===================================
-Change your cloud account owner
+Change your Cloud Account Owner
 ===================================
 
 When a Primary User/Account Owner leaves the company or the name of the company or
@@ -40,16 +40,20 @@ You can **Change the Account Owner** by using the following steps:
 
 **Step 3** In Account Settings page, click **update** next to **Account Owner**.
 
-.. image:: 
-   :width: 
-   :alt: 
+.. image:: updateowner.png
+   :width: 656
+   :alt: updateowner
 
 
 **Step 3** In Update Account Owner page, select a **User** from the User list to be assigned as New Account Owner. Fill in the address details of Account Owner and click **Submit**.
 
-.. image:: 
-   :width: 
-   :alt: 
+.. image:: selectownernew.png
+   :width: 553
+   :alt: selectownernew
 
 
 **Step 5** Click **Confirm** to change the **Primary Account Owner**.
+
+.. image:: confirmnewowner.png
+   :width: 793
+   :alt: confirmnewowner
