@@ -15,13 +15,13 @@ You can download the **Primary Contact Change** form by using the following step
 
 .. image:: accdocs&forms.png
    :width: 718
-   :alt: accdocs&forms
+   :alt: acc docs & forms
 
 
-**Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Complete the **Primary Contact Change Form** and attach it yo your support ticket. 
+**Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Complete the **Primary Contact Change Form** and attach it on your support ticket. 
 
 .. image:: changeprimarycontactform.png
    :width: 647
-   :alt: changeprimarycontactform
+   :alt: change primary contact form
 
 
