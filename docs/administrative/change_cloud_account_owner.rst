@@ -10,7 +10,7 @@ To Update this information for
 your Rackspace Technology Cloud and Amazon Web Services® (AWS)
 accounts, Login to `Rackspace Technology Customer Portal <https://login.rackspace.com>`_.
 
-**Note: Only the current Acount Owner can assign a New Account Owner.**
+**Note: Only the current Account Owner can assign a New Account Owner.**
 
 **When you Change the Account Owner**:
 
@@ -35,25 +35,25 @@ You can **Change the Account Owner** by using the following steps:
 
 .. image:: accountsetting.png
    :width: 590
-   :alt: accountsetting 
+   :alt: account setting 
 
 
 **Step 3** In Account Settings page, click **update** next to **Account Owner**.
 
 .. image:: updateowner.png
    :width: 656
-   :alt: updateowner
+   :alt: update owner
 
 
 **Step 3** In Update Account Owner page, select a **User** from the User list to be assigned as New Account Owner. Fill in the address details of Account Owner and click **Submit**.
 
 .. image:: selectownernew.png
    :width: 553
-   :alt: selectownernew
+   :alt: select owner new
 
 
 **Step 5** Click **Confirm** to change the **Primary Account Owner**.
 
 .. image:: confirmnewowner.png
    :width: 793
-   :alt: confirmnewowner
+   :alt: confirm new owner
