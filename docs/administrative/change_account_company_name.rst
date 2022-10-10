@@ -1,4 +1,4 @@
-.. _change_cloud_account_owner:
+.. _change_account_company_name:
 
 ===================================
 Change your Account Company Name 
