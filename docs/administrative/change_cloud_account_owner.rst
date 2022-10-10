@@ -1,4 +1,4 @@
-.. _change_owner:
+.. _change_cloud_account_owner:
 
 ===================================
 Change your Cloud Account Owner
