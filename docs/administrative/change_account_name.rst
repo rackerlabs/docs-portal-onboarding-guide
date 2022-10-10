@@ -1,16 +1,8 @@
----
-permalink: change-account-company-name
-audit_date: '2018-03-13'
-title: Change an account's company name
-type: article
-created_date: '2018-03-13'
-created_by: Rackspace Support
-last_modified_date: '2022-10-11'
-last_modified_by: Rohit Rajput 
----
+.. _change_cloud_account_owner:
 
-Change your account's company name
-====================================
+===================================
+Change your Account Company Name 
+===================================
 
 Complete a **Service Transfer** form if your company has filed for a name change with the Secretary of State where the company is registered, and the tax ID is changed.
 
@@ -22,8 +14,10 @@ You can download the **Service Transfer** form by using the following steps:
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="349" alt="docs and forms" src="docs&forms.png">
-
+.. image:: docs&forms.png
+   :width: 349
+   :alt: docs & forms 
+  
 **Step 3.** In the **Documents and Forms** page, select the appropriate options below **Transfer Ownership to a new Account owner**:
 
    - Fanatical Support for AWS customer,
@@ -36,20 +30,29 @@ You can download the **Service Transfer** form by using the following steps:
 
 **Step 6.** Select **Tickets** > **Create Ticket** from the top navigation panel.
 
-<img width="331" alt="Create Ticket" src="createticket.png">
+.. image:: createticket.png
+   :width: 331
+   :alt: create ticket
+  
+**Step 6.** In **Create Ticket** page, select the appropriate **Category** from Category section and click **Continue**.
 
-**Step 6.**In **Create Ticket** page, select the appropriate **Category** from Category section and click **Continue**.
-
-<img width="470" alt="Category" src="category.png">
-
+.. image:: category.png
+   :width: 470
+   :alt: category 
+   
 **Step 7.** In **Account & Product** section, click **drop-down** and select the appropriate **Account**, **Product**, and **Severity** and click **Continue** as shown in the below image.
 
-<img width="380" alt="Account Product Severity" src="accountproduct&severity.png">
-
+.. image:: accountproduct&severity.png
+   :width: 380
+   :alt: account product & severity
+   
 **Step 8.** In **Issue Details** section, fill in details of Subject, Description, and Recipient(s). Upload the **Account Change Form** as attachments with
 **Company Name Change Request** in the subject line and click **Submit**. Your ticket will be created.
 
-<img width="379" alt="Issue Details" src="issuedetails.png">
+.. image:: issuedetails.png
+   :width: 379
+   :alt: issue details 
+   
 
 
 
