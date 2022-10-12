@@ -9,7 +9,7 @@ Update your account's primary contact
  
 You can download the **Primary Contact Change** form by using the following steps: 
 
-**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>.
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>.
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
