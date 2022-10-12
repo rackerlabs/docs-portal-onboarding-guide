@@ -12,8 +12,8 @@ Rackspace Technology users and groups.
 .. toctree::
    :maxdepth: 1
 
-   primary_contact.rst
-   change_account_name.rst
-   change_owner.rst
+   update_primary_contact.rst
+   change_account_company_name.rst
+   change_cloud_account_owner.rst
    acct_switcher.rst
 
