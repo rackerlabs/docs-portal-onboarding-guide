@@ -1,7 +1,7 @@
 .. _primary_contact:
 
 =======================================
-Update your account's primary contact
+Update your Account's Primary Contact
 =======================================
 
 **Note: The primary contact for your account must be an active user**
