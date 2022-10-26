@@ -38,7 +38,7 @@ You can **Change the Account Owner** by using the following steps:
    :alt: account setting 
 
 
-**Step 3** In Account Settings page, click **update** next to **Account Owner**.
+**Step 3** In Account Settings page, click **Update** next to **Account Owner**.
 
 .. image:: updateowner.png
    :width: 656
